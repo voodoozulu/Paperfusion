@@ -2,9 +2,9 @@ extends KinematicBody
 
 const SPEED = 12
 const GRAVITY = 1
-const JUMP_POWER = 30
+const JUMP_POWER = 15
 const MAX_FALL_SPEED = 30
-
+var position = get_translation()
 #refrence to vertical velocity
 var y_velo = 0
 
@@ -27,6 +27,7 @@ func _ready():
 #
 #movement event
 func _physics_process(delta):
+	position = get_translation()
 	var move_vec = Vector3()
 	if Input.is_action_pressed("move_forward"):
 		move_vec.z -= 1

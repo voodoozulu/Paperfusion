@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/idol.png-9c1805edc631e500343683874cf48b7d.stex"
+path="res://.import/idle2.png-be335446d6b6c5c1ce30562e5437fb5d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Characters/enemy/idol.png"
-dest_files=[ "res://.import/idol.png-9c1805edc631e500343683874cf48b7d.stex" ]
+source_file="res://Characters/enemy/idle2.png"
+dest_files=[ "res://.import/idle2.png-be335446d6b6c5c1ce30562e5437fb5d.stex" ]
 
 [params]
 
