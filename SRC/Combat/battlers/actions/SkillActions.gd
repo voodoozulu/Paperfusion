@@ -2,7 +2,7 @@ extends CombatAction
 
 class_name SkillAction
 
-var skill: Skill = null
+var skill : Skill = null
 
 
 func _ready() -> void:
