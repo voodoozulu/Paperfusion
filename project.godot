@@ -8,9 +8,80 @@
 
 config_version=4
 
-_global_script_classes=[  ]
+_global_script_classes=[ {
+"base": "Position3D",
+"class": "Battler",
+"language": "GDScript",
+"path": "res://SRC/Combat/battlers/battler.gd"
+}, {
+"base": "Node",
+"class": "CharacterSkill",
+"language": "GDScript",
+"path": "res://SRC/Combat/battlers/skills/CharacterSkill_Scn.gd"
+}, {
+"base": "Node",
+"class": "CharacterStats",
+"language": "GDScript",
+"path": "res://SRC/Combat/battlers/stats/CharacterStats.gd"
+}, {
+"base": "Node",
+"class": "CombatAction",
+"language": "GDScript",
+"path": "res://SRC/Combat/CombatAction.gd"
+}, {
+"base": "Spatial",
+"class": "CombatArena",
+"language": "GDScript",
+"path": "res://SRC/Combat/CombatArena.gd"
+}, {
+"base": "Reference",
+"class": "Hit",
+"language": "GDScript",
+"path": "res://SRC/Combat/Hit.gd"
+}, {
+"base": "Spatial",
+"class": "Party",
+"language": "GDScript",
+"path": "res://SRC/Party/Party.gd"
+}, {
+"base": "Spatial",
+"class": "PartyMember",
+"language": "GDScript",
+"path": "res://SRC/Party/PartyMember.gd"
+}, {
+"base": "Resource",
+"class": "Skill",
+"language": "GDScript",
+"path": "res://SRC/Combat/battlers/skills/skills_resource.gd"
+}, {
+"base": "CombatAction",
+"class": "SkillAction",
+"language": "GDScript",
+"path": "res://SRC/Combat/battlers/actions/SkillActions.gd"
+}, {
+"base": "Resource",
+"class": "StartingStats",
+"language": "GDScript",
+"path": "res://SRC/Combat/battlers/stats/StartingStats.gd"
+}, {
+"base": "YSort",
+"class": "TurnQueue",
+"language": "GDScript",
+"path": "res://SRC/Combat/turn_queue/TurnQueue.gd"
+} ]
 _global_script_class_icons={
-
+"Battler": "",
+"CharacterSkill": "",
+"CharacterStats": "",
+"CombatAction": "",
+"CombatArena": "",
+"Hit": "",
+"Party": "",
+"PartyMember": "",
+"Skill": "",
+"SkillAction": "",
+"StartingStats": "",
+"TurnQueue": ""
 }
 
 [application]
